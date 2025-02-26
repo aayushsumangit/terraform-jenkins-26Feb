@@ -1,6 +1,7 @@
 
 provider "azurerm" {
   features {}
+  subscription_id = "your_subscription_id" # Replace with your subscription ID
 }
 
 resource "azurerm_resource_group" "jenkins_rg" {
