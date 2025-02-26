@@ -48,6 +48,7 @@ resource "azurerm_linux_virtual_machine" "jenkins_vm" {
   os_disk {
     caching              = "ReadWrite"
     create_option        = "FromImage"
+    storage_account_type = "Standard_LRS" #added this line due to error
   }
 
   source_image_reference {
