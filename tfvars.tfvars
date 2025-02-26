@@ -1,2 +1,2 @@
-admin_username = "jeff"
-admin_password = "Admin@502"
+admin_username = "azuresusergit"
+admin_password = "Jenkins@2023"
